@@ -1,10 +1,36 @@
 /* Ensure project list content stays left-aligned even when parent text is centered */
-.project-text ul {
+.project-details {
     text-align: left;
     padding-left: 1.25rem;
     margin-bottom: 0;
 }
 
-.project-text ul li {
+.project-details li {
     margin-bottom: 0.5rem;
+}
+
+.text-mg-left {
+    text-align: left;
+}
+
+/* subtle divider + spacing between the first two project cards */
+.project-row {
+    position: relative;
+    gap: 24px;
+}
+
+.project-row::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.25);
+    left: calc(50% - 0.5px);
+}
+
+@media (max-width: 991.98px) {
+    .project-row::before {
+        display: none;
+    }
 }
