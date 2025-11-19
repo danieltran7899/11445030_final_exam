@@ -36,7 +36,6 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
@@ -56,170 +55,217 @@
         </div>
     </header>
     <!-- About-->
-    <section class="about-section text-center" id="about">
+    <section class="about-section bg-white" id="about">
         <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 align-items-center">
-                <div class="col-lg-8 text-mg-left">
-                    <h2 class="text-white mb-4 text-mg-left">About me</h2>
-                    <p class="text-white-50 mb-4">
-                        I'm Tran Tan Huan, a Taipei-based product designer with a passion for merging clean aesthetics
-                        and reliable front-end code.
-                        After graduating from National Taipei University of Business, I have spent the past five years
-                        collaborating with cross-functional teams to ship products that delight users.
-                    </p>
-                    <ul class="list-unstyled text-white-50 mb-4">
-                        <li><strong class="text-white">Name:</strong> Tran Tan Huan </li>
-                        <li><strong class="text-white">Age:</strong> 18 </li>
-                        <li><strong class="text-white">Origin:</strong> Hai Phong, Viet Nam </li>
-                        <li><strong class="text-white">Current base:</strong> Taipei City </li>
-                    </ul>
+            <div>
+                <div class="row gx-4 gx-lg-5 align-items-center section-body">
+                    <div class="col-lg-9">
+                        <p class="section-eyebrow text-uppercase mb-2 text-primary">About</p>
+                        <h2 class="fw-bold mb-0">About me</h2>
+                        <p class="mb-4 text-muted">
+                            I'm Tran Tan Huan, a Taipei-based product designer with a passion for merging clean
+                            aesthetics and reliable front-end code. After graduating from National Taipei University of
+                            Business, I have spent the past five years collaborating with cross-functional teams to ship
+                            products that delight users.
+                        </p>
+                        <ul class="list-unstyled text-muted mb-0 about-details">
+                            <li><strong>Name:</strong> Tran Tan Huan</li>
+                            <li><strong>Age:</strong> 18</li>
+                            <li><strong>Origin:</strong> Hai Phong, Viet Nam</li>
+                            <li><strong>Current base:</strong> Taipei City</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 text-center text-lg-end mt-4 mt-lg-0">
+                        <img class="img-fluid rounded-3 shadow-sm about-photo" src="assets/img/about.jpg" alt="About" />
+                    </div>
                 </div>
-                <div class="col-lg-4"><img class="img-fluid" src="assets/img/about.jpg" alt="..." /></div>
             </div>
         </div>
     </section>
     <!-- Projects-->
-    <section class="projects-section bg-light" id="projects">
-        <div class="container px-4 px-lg-5">
+    <section class="projects-section bg-white" id="projects">
+        <div class="container px-4 px-lg-5 section-body">
             <!-- Featured Project Row-->
-            <div class="row mb-5">
+            <div class="row mb-5 align-items-end">
                 <div class="col-lg-8">
-                    <p class="eyebrow text-uppercase text-primary mb-2">Selected projects</p>
-                    <h2 class="fw-bold">A snapshot of the work I'm most proud of.</h2>
+                    <p class="section-eyebrow text-uppercase text-primary mb-2">Selected projects</p>
+                    <h2 class="fw-bold mb-0">A snapshot of the work I'm most proud of.</h2>
                 </div>
-                <div class="col-lg-4 text-lg-end align-self-end text-muted">
+                <div class="col-lg-4 text-lg-end text-muted">
                     <strong>Time duration:</strong> 2019 — Present
                 </div>
             </div>
             <!-- Project One Row-->
-            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-
-                <div class="col-lg-6">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-lg-left">
-                                <h4 class="text-white project-name">Project 0: 000000000000 </h4>
-                                <div>
-                                    <span class="badge bg-dark text-uppercase">2022 · 6 months</span>
-                                    <span class="text-muted small ms-2">4 members</span>
-                                </div>
-                                <p class="mb-3 text-white">Implemented a modular React dashboard for IoT energy sensors,
-                                    complete
-                                    with custom charts, multi-tenant theming, and role-based access.</p>
-                                <br>
-                                <ul class="list-unstyled text-white project-details">
-                                    <li><strong>Key responsibilities:</strong> UI engineering, accessibility,
-                                        performance tuning.</li>
-                                    <li><strong>Technologies used:</strong> React, D3, SCSS, Storybook.</li>
-                                    <li><strong>Notable achievements:</strong> Improved load time by 30%, enhanced accessibility for screen readers.</li>
-                                    <li ><strong >Challenges faced:</strong> Integrating with legacy systems, ensuring cross-browser compatibility.</li>
-                                    <li><strong>Future improvements:</strong> Implementing automated testing, optimizing performance for mobile devices.</li>
-                                </ul>
-                            </div>
-
+            <div class="row card-row ">
+                <div class="col-lg-1 mb-3 mb-md-0 card-body ">
+                    <div class="skill-card p-4 h-100 rounded shadow-sm position-relative">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="h5 mb-0 text-uppercase">Project name: </h3>
                         </div>
+                        <ul class="list-unstyled small text-muted mb-0">
+                            <li><strong>Technologies: </strong></li>
+                            <li><strong>Project description: </strong></li>
+                            <li><strong>Key responsibilities: </strong></li>
+                            <li><strong>Notable achievements: </strong></li>
+                            <li><strong>Challenges faced: </strong></li>
+                            <li><strong>Future improvements: </strong></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">Project 1: 11111111111111 </h4>
-
-                                <p class="mb-3 text-white">Implemented a modular React dashboard for IoT energy sensors,
-                                    complete
-                                    with custom charts, multi-tenant theming, and role-based access.</p>
-                                <br>
-                                <ol class="list-unstyled text-white">
-                                    <li><strong>Key responsibilities:</strong> UI engineering, accessibility,
-                                        performance tuning.</li>
-                                    <li><strong>Technologies used:</strong> React, D3, SCSS, Storybook.</li>
-                                </ol>
+                <div class="col-lg-6 mb-3 mb-md-0 card-body">
+                    <div class="skill-card p-4 h-100 rounded shadow-sm position-relative">
+                        <div class="d-flex justify-content-between align-items-center mb-3 ">
+                            <h3 class="h5 mb-0">Project 1</h3>
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                                <span class="badge bg-dark text-uppercase text-white">2022 · 6 months</span>
+                                <span class="text-muted small">4 members</span>
                             </div>
-
                         </div>
+                        <ul class="list small text-muted mb-0">
+                            <li>React, D3, SCSS, Storybook.</li>
+                            <li>Implemented a modular React dashboard for IoT energy sensors, complete
+                                with custom charts, multi-tenant theming, and role-based access.</li>
+                            <li>UI engineering, accessibility, performance tuning.</li>
+                            <li>Improved load time by 30%, enhanced accessibility for screen readers.</li>
+                            <li>Integrating with legacy systems, ensuring cross-browser compatibility.</li>
+                            <li>Implementing automated testing, optimizing performance for mobile devices.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <!-- Project Two Row-->
-
-        </div>
-        </div>
-    </section>
-
-    <section class="about-section text-center" id="experience">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 align-items-center">
-                <div class="col-lg-8">
-                    <h2 class="text-white mb-4">Experience</h2>
-                    <p class="text-white-50 mb-4">
-                        A mix of academic rigor and hands-on product work.
-                    </p>
-                    <ul class="list-unstyled text-white-50 mb-4">
-                        <li><strong class="text-white">Name:</strong> Tran Tan Huan </li>
-                        <li><strong class="text-white">Age:</strong> 18 </li>
-                        <li><strong class="text-white">Origin:</strong> Hai Phong, Viet Nam </li>
-                        <li><strong class="text-white">Current base:</strong> Taipei City </li>
-                    </ul>
+            <div class="row card-row">
+                <div class="col-lg-1 mb-3 mb-md-0 card-body">
+                    <div class="skill-card p-4 h-100 rounded shadow-sm position-relative">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="h5 mb-0 text-uppercase">Project name: </h3>
+                        </div>
+                        <ul class="list-unstyled small text-muted mb-0">
+                            <li><strong>Technologies: </strong></li>
+                            <li><strong>Project description: </strong></li>
+                            <li><strong>Key responsibilities: </strong></li>
+                            <li><strong>Notable achievements: </strong></li>
+                            <li><strong>Challenges faced: </strong></li>
+                            <li><strong>Future improvements: </strong></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-4"><img class="img-fluid" src="assets/img/about.jpg" alt="..." /></div>
+                <div class="col-lg-6 mb-3 mb-md-0 card-body">
+                    <div class="skill-card p-4 h-100 rounded shadow-sm position-relative">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="h5 mb-0">Project 2</h3>
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                                <span class="badge bg-dark text-uppercase text-white">2022 · 6 months</span>
+                                <span class="text-muted small">4 members</span>
+                            </div>
+                        </div>
+                        <ul class="list small text-muted mb-0">
+                            <li>React, D3, SCSS, Storybook.</li>
+                            <li>Implemented a modular React dashboard for IoT energy sensors, complete
+                                with custom charts, multi-tenant theming, and role-based access.</li>
+                            <li>UI engineering, accessibility, performance tuning.</li>
+                            <li>Improved load time by 30%, enhanced accessibility for screen readers.</li>
+                            <li>Integrating with legacy systems, ensuring cross-browser compatibility.</li>
+                            <li>Implementing automated testing, optimizing performance for mobile devices.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- Signup-->
-    <section class="signup-section" id="signup">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-md-10 col-lg-8 mx-auto text-center">
-                    <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                    <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- * * SB Forms Contact Form * *-->
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- This form is pre-integrated with SB Forms.-->
-                    <!-- To make this form functional, sign up at-->
-                    <!-- https://startbootstrap.com/solution/contact-forms-->
-                    <!-- to get an API token!-->
-                    <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                        <!-- Email address input-->
-                        <div class="row input-group-newsletter">
-                            <div class="col"><input class="form-control" id="emailAddress" type="email"
-                                    placeholder="Enter email address..." aria-label="Enter email address..."
-                                    data-sb-validations="required,email" /></div>
-                            <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton"
-                                    type="submit">Notify Me!</button></div>
+    <!-- Skills-->
+    <section class="skills-section bg-white" id="skills">
+        <div class="container px-4 px-lg-5 section-body">
+            <div class="row mb-5">
+                <div class="col-lg-8">
+                    <p class="section-eyebrow text-uppercase text-primary mb-2">Skills</p>
+                    <h2 class="fw-bold mb-0">A toolkit that balances strategy, design, and code.</h2>
+                </div>
+            </div>
+            <div class="container px-4 px-lg-5">
+            </div>
+            <div class="row card-row">
+                <div class="col-lg-1 mb-3 mb-md-0 card-body">
+                    <div class="skill-card p-4 h-100 rounded shadow-sm position-relative">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="h5 mb-0 text-uppercase">Skill title: </h3>
                         </div>
-                        <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is
-                            required.</div>
-                        <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.
+                        <ul class="list-unstyled small text-muted mb-0">
+                            <li><strong>Level:</strong></li>
+                            <li><strong>Certifications:</strong></li>
+                            <li><strong>Experience:</strong></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-3 mb-md-0 card-body">
+                    <div class="skill-card p-4 h-100 rounded shadow-sm position-relative">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="h5 mb-0">Skill 1</h3>
                         </div>
-                        <!-- Submit success message-->
-                        <!---->
-                        <!-- This is what your users will see when the form-->
-                        <!-- has successfully submitted-->
-                        <div class="d-none" id="submitSuccessMessage">
-                            <div class="text-center mb-3 mt-2 text-white">
-                                <div class="fw-bolder">Form submission successful!</div>
-                                To activate this form, sign up at
-                                <br />
-                                <a
-                                    href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                            </div>
+                        <ul class="list small text-muted mb-0">
+                            <li>Expert</li>
+                            <li>Certified Scrum Master</li>
+                            <li>5 years</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row card-row">
+                <div class="col-lg-1 mb-3 mb-md-0 card-body">
+                    <div class="skill-card p-4 h-100 rounded shadow-sm position-relative">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="h5 mb-0 text-uppercase">Skill title: </h3>
                         </div>
-                        <!-- Submit error message-->
-                        <!---->
-                        <!-- This is what your users will see when there is-->
-                        <!-- an error submitting the form-->
-                        <div class="d-none" id="submitErrorMessage">
-                            <div class="text-center text-danger mb-3 mt-2">Error sending message!</div>
+                        <ul class="list-unstyled small text-muted mb-0">
+                            <li><strong>Level:</strong></li>
+                            <li><strong>Certifications:</strong></li>
+                            <li><strong>Experience:</strong></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-3 mb-md-0 card-body">
+                    <div class="skill-card p-4 h-100 rounded shadow-sm position-relative">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="h5 mb-0">Skill 1</h3>
                         </div>
-                    </form>
+                        <ul class="list small text-muted mb-0">
+                            <li>Expert</li>
+                            <li>Certified Scrum Master</li>
+                            <li>5 years</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row card-row">
+                <div class="col-lg-1 mb-3 mb-md-0 card-body">
+                    <div class="skill-card p-4 h-100 rounded shadow-sm position-relative">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="h5 mb-0 text-uppercase">Skill title: </h3>
+                        </div>
+                        <ul class="list-unstyled small text-muted mb-0">
+                            <li><strong>Level:</strong></li>
+                            <li><strong>Certifications:</strong></li>
+                            <li><strong>Experience:</strong></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-3 mb-md-0 card-body">
+                    <div class="skill-card p-4 h-100 rounded shadow-sm position-relative">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="h5 mb-0">Skill 1</h3>
+                        </div>
+                        <ul class="list small text-muted mb-0">
+                            <li>Expert</li>
+                            <li>Certified Scrum Master</li>
+                            <li>5 years</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Contact-->
-    <section class="contact-section bg-black" id="contact">
+    <section class="contact-section bg-white" id="contact">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5">
                 <div class="col-md-4 mb-3 mb-md-0">
@@ -228,7 +274,12 @@
                             <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Address</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">No.321, Sec. 1, Ji-nan Rd., Taipei City 10051</div>
+                            <div class="small text-black-50">
+                                <a href="https://maps.app.goo.gl/bcFqpSVN5npXzYQz7" target="_blank"
+                                    rel="noopener noreferrer">
+                                    No.321, Sec. 1, Ji-nan Rd., Taipei City 10051
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -238,7 +289,8 @@
                             <i class="fas fa-envelope text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Email</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50"><a href="#!">11445030@ntub.edu.tw</a></div>
+                            <div class="small text-black-50"><a
+                                    href="mailto:11445030@ntub.edu.tw">11445030@ntub.edu.tw</a></div>
                         </div>
                     </div>
                 </div>
@@ -248,7 +300,9 @@
                             <i class="fas fa-mobile-alt text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Phone</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">+886 981413629</div>
+                            <div class="small text-black-50">
+                                <a href="tel:+886981413629">+886 981413629</a>
+                            </div>
                         </div>
                     </div>
                 </div>
